@@ -1,0 +1,112 @@
+{
+  "Email": {
+    "key": "email"
+  },
+  "GreaterThanOrEqual": {
+    "key": "greaterThanOrEqual",
+    "comparisonValue": "{ComparisonValue}"
+  },
+  "GreaterThan": {
+    "key": "greaterThan",
+    "comparisonValue": "{ComparisonValue}"
+  },
+  "Length": {
+    "key": "length",
+    "minLength": "{MinLength}",
+    "maxLength": "{MaxLength}",
+    "entered": "{TotalLength}"
+  },
+  "MinLength": {
+
+    "key": "minLength",
+    "minLength": "{MinLength}",
+    "entered": "{TotalLength}"
+  },
+  "MaxLength": {
+    "key": "maxLength",
+    "maxLength": "{MaxLength}",
+    "entered": "{TotalLength}"
+  },
+  "LessThanOrEqual": {
+
+    "key": "lessThanOrEqual",
+    "comparisonValue": "{ComparisonValue}"
+  },
+  "LessThan": {
+    "key": "lessThan",
+    "comparisonValue": "{ComparisonValue}"
+  },
+  "NotEmpty": {
+    "key": "notEmpty"
+  },
+  "NotEqual": {
+    "key": "notEqual",
+    "comparisonValue": "{ComparisonValue}"
+  },
+  "Predicate": {
+    "key": "predicate"
+  },
+  "Regex": {
+    "key": "regex"
+  },
+  "Equal": {
+    "key": "equal",
+    "comparisonValue": "{ComparisonValue}"
+  },
+  "ExactLength": {
+    "key": "exactLength",
+    "length": "{MaxLength}",
+    "entered": "{TotalLength}"
+  },
+  "InclusiveBetween": {
+    "key": "inclusiveBetween",
+    "from": "{From}",
+    "to": "{To}",
+    "entered": "{Value}"
+  },
+  "ExclusiveBetween": {
+    "key": "exclusiveBetween",
+    "from": "{From}",
+    "to": "{To}",
+    "entered": "{Value}"
+  },
+  "CreditCard": {
+    "key": "creditCard"
+  },
+  "ScalePrecision": {
+    "key": "scalePrecision",
+    "expectedPrecision": "{ExpectedPrecision}",
+    "expectedScale": "{ExpectedScale}",
+    "digits": "{Digits}",
+    "actualScale": "{ActualScale}"
+  },
+  "Empty": {
+    "key": "empty"
+  },
+  "Enum": {
+    "key": "enum",
+    "propertyValue": "{PropertyValue}",
+  },
+  "SimpleLength": {
+    "key": "simpleLength",
+    "minLength": "{MinLength}",
+    "maxLength": "{MaxLength}"
+  },
+  "SimpleMinLength": {
+    "key": "simpleMinLength",
+    "minLength": "{MinLength}"
+  },
+  "SimpleMaxLength": {
+    "key": "simpleMaxLength",
+    "maxLength": "{MaxLength}"
+  },
+  "SimpleExactLength": {
+    "key": "simpleExactLength",
+    "length": "{MaxLength}"
+  },
+  "SimpleInclusiveBetween": {
+    "key": "simpleInclusiveBetween",
+    "from": "{From}",
+    "to": "{To}"
+  }
+}
