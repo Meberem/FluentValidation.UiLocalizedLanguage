@@ -21,11 +21,22 @@ Instead of
 
 ## Usage
 
+Add the package
+```
+<Project>
+  ...
+  <ItemGroup>
+    ...
+	<PackageReference Include="Meberem.FluentValidation.UiLocalizedLanguage" Version="1.0.0" />
+  </ItemGroup>
+</Project>
+```
+
 Somewhere in your startup code
 
 ```
 using FluentValidation;
-using FluentValidation.UiLocalizedLanguage;
+using Meberem.FluentValidation.UiLocalizedLanguage;
 ...
 
 ValidatorOptions.LanguageManager = UiLocalizableLanguageManager.Default;

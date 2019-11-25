@@ -7,10 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ACF760CD-1BC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B6D69223-A7D1-4745-8089-3DEFD13EBB2D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidation.UiLocalizedLanguage", "src\FluentValidation.UiLocalizedLanguage\FluentValidation.UiLocalizedLanguage.csproj", "{ADB4C32E-988D-4525-AADA-BBFCD9F6941B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidation.UiLocalizedLanguage.Tests", "test\FluentValidation.UiLocalizedLanguage.Tests\FluentValidation.UiLocalizedLanguage.Tests.csproj", "{759E6ED0-57EB-4FFB-817B-255E39307BF1}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B5AFFE67-8193-4DBD-B4FB-D65FD95D313A}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
@@ -21,28 +17,32 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{AD1EEDC6-3575-
 		.github\workflows\master-action.yml = .github\workflows\master-action.yml
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meberem.FluentValidation.UiLocalizedLanguage", "src\Meberem.FluentValidation.UiLocalizedLanguage\Meberem.FluentValidation.UiLocalizedLanguage.csproj", "{282BD26B-3291-4ACA-B449-387E3C3995AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meberem.FluentValidation.UiLocalizedLanguage.Tests", "test\Meberem.FluentValidation.UiLocalizedLanguage.Tests\Meberem.FluentValidation.UiLocalizedLanguage.Tests.csproj", "{B6B2EB7D-73A0-499B-B66E-FFE88341FE84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ADB4C32E-988D-4525-AADA-BBFCD9F6941B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ADB4C32E-988D-4525-AADA-BBFCD9F6941B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ADB4C32E-988D-4525-AADA-BBFCD9F6941B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ADB4C32E-988D-4525-AADA-BBFCD9F6941B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{759E6ED0-57EB-4FFB-817B-255E39307BF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{759E6ED0-57EB-4FFB-817B-255E39307BF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{759E6ED0-57EB-4FFB-817B-255E39307BF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{759E6ED0-57EB-4FFB-817B-255E39307BF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282BD26B-3291-4ACA-B449-387E3C3995AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282BD26B-3291-4ACA-B449-387E3C3995AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282BD26B-3291-4ACA-B449-387E3C3995AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282BD26B-3291-4ACA-B449-387E3C3995AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B2EB7D-73A0-499B-B66E-FFE88341FE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B2EB7D-73A0-499B-B66E-FFE88341FE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B2EB7D-73A0-499B-B66E-FFE88341FE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B2EB7D-73A0-499B-B66E-FFE88341FE84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{ADB4C32E-988D-4525-AADA-BBFCD9F6941B} = {ACF760CD-1BCB-4243-850D-AB5817B44F42}
-		{759E6ED0-57EB-4FFB-817B-255E39307BF1} = {B6D69223-A7D1-4745-8089-3DEFD13EBB2D}
 		{AD1EEDC6-3575-4023-8523-C243EE3D59F8} = {B5AFFE67-8193-4DBD-B4FB-D65FD95D313A}
+		{282BD26B-3291-4ACA-B449-387E3C3995AA} = {ACF760CD-1BCB-4243-850D-AB5817B44F42}
+		{B6B2EB7D-73A0-499B-B66E-FFE88341FE84} = {B6D69223-A7D1-4745-8089-3DEFD13EBB2D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4261C007-28C3-4ED8-88C6-6978C97A7C03}
