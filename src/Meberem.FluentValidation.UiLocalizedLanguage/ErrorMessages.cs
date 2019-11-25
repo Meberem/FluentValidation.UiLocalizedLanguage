@@ -5,7 +5,7 @@ using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace FluentValidation.UiLocalizedLanguage
+namespace Meberem.FluentValidation.UiLocalizedLanguage
 {
     public class ErrorMessages
     {
@@ -36,7 +36,7 @@ namespace FluentValidation.UiLocalizedLanguage
         public string SimpleInclusiveBetween { get; set; }
         private static readonly Lazy<Dictionary<string, string>> DefaultFromEmbeddedJson = new Lazy<Dictionary<string, string>>(() =>
         {
-            using (var stream = typeof(ErrorMessages).Assembly.GetManifestResourceStream("FluentValidation.UiLocalizedLanguage.DefaultErrorMessages.json"))
+            using (var stream = typeof(ErrorMessages).Assembly.GetManifestResourceStream($"{typeof(ErrorMessages).Assembly.GetName().Name}.DefaultErrorMessages.json"))
             using (var readStream = new StreamReader(stream))
             using (var reader = new JsonTextReader(readStream))
             {

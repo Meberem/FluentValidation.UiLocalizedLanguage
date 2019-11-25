@@ -1,7 +1,7 @@
 ﻿using FluentValidation.Resources;
 using FluentValidation.Validators;
 
-namespace FluentValidation.UiLocalizedLanguage
+namespace Meberem.FluentValidation.UiLocalizedLanguage
 {
     public class UiLocalizableLanguage : Language
     {

@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using FluentValidation.Resources;
 
-namespace FluentValidation.UiLocalizedLanguage
+namespace Meberem.FluentValidation.UiLocalizedLanguage
 {
     public class UiLocalizableLanguageManager : ILanguageManager
     {

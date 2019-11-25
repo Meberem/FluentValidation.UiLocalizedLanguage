@@ -1,7 +1,8 @@
+using FluentValidation;
 using Shouldly;
 using Xunit;
 
-namespace FluentValidation.UiLocalizedLanguage.Tests
+namespace Meberem.FluentValidation.UiLocalizedLanguage.Tests
 {
     public class UiLocalizableLanguageTests
     {
