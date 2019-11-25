@@ -19,6 +19,6 @@ jobs:
     - name: Build, test and create nuget packages
       run: dotnet test --configuration Release
     - name: Publish to feed
-      run: dotnet push **/*.nupkg
+      run: dotnet nuget push **/*.nupkg
            --api-key ${{ secrets.NUGET_KEY }}
            --source https://api.nuget.org/v3/index.json
