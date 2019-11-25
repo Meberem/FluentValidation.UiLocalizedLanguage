@@ -16,6 +16,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ci", "ci", "{AD1EEDC6-3575-4023-8523-C243EE3D59F8}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\master-action.yml = .github\workflows\master-action.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ADB4C32E-988D-4525-AADA-BBFCD9F6941B} = {ACF760CD-1BCB-4243-850D-AB5817B44F42}
 		{759E6ED0-57EB-4FFB-817B-255E39307BF1} = {B6D69223-A7D1-4745-8089-3DEFD13EBB2D}
+		{AD1EEDC6-3575-4023-8523-C243EE3D59F8} = {B5AFFE67-8193-4DBD-B4FB-D65FD95D313A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4261C007-28C3-4ED8-88C6-6978C97A7C03}
